@@ -1,0 +1,16 @@
+<h1> <%= @task.title.capitalize %> </h1>
+
+<div class= "box">
+  <p> <%= @task.details.capitalize %> </p>
+</div>
+
+
+<p> <%= @bul %> </p>
+
+
+
+<div class= "sml_box">
+  <%= link_to "Home", tasks_path %>
+  <%= link_to "Edit", edit_task_path %>
+</div>
+
